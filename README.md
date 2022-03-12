@@ -7,20 +7,20 @@
 Die Installation von ERPNext kann nervig sein, besonders wenn Sie gerade erst anfangen. In diesem Artikel werde ich Schritt für Schritt vorgehen, um unser neu installiertes Betriebssystem Ubuntu 20.04 zu konfigurieren, um eine Umgebung einzurichten und ERPNext zu installieren. 
 ## Voraussetzungen
 ### Software Anforderungen
-•	Updated Ubuntu 20.04
-•	A user with sudo privileges
-•	Python 3.6+
-•	Node.js 12
-•	Redis 5
-•	MariaDB 10.3.x / Postgres 9.5.x
-•	yarn 1.12+
-•	pip 20+
-•	wkhtmltopdf (version 0.12.5 with patched qt)
-•	cron
-•	NGINX
+* Updated Ubuntu 20.04
+* A user with sudo privileges
+* Python 3.6+
+* Node.js 12
+* Redis 5
+* MariaDB 10.3.x / Postgres 9.5.x
+* yarn 1.12+
+* pip 20+
+* wkhtmltopdf (version 0.12.5 with patched qt)
+* cron
+* NGINX
 ### Hardware Anforderungen
-•	4GB RAM
-•	40GB Hard Disk
+* 4GB RAM
+* 40GB Hard Disk
  
 In unseren ersten Schritten stellen wir sicher, dass unser System auf dem neuesten Stand ist, indem wir die folgenden Befehle ausführen:
 ```
