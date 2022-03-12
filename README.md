@@ -1,6 +1,7 @@
 <center>
  <img src="ERPNext-servidor-cloud.jpg">
 </center>
+
 # So installieren Sie ERPNext in Ubuntu 20.04
 ### A Step by Step Guide
 Die Installation von ERPNext kann nervig sein, besonders wenn Sie gerade erst anfangen. In diesem Artikel werde ich Schritt für Schritt vorgehen, um unser neu installiertes Betriebssystem Ubuntu 20.04 zu konfigurieren, um eine Umgebung einzurichten und ERPNext zu installieren. 
