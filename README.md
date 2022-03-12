@@ -111,7 +111,7 @@ bench init erpnext
 Erstellen Sie eine neue Frappe-Site.
 ```
 cd erpnext
-bench new-site erp.codewithkarani.com 
+bench new-site erp.testSite.com 
 ```
 #### Schritt 5: Holen Sie sich die ERPNext-Anwendung von GitHub.
 Laden Sie die ERPNext aus dem Frappe-Github-Repo herunter. Wir werden Version 13 verwenden. Sie können jede Version verwenden, die Sie möchten.
@@ -120,7 +120,7 @@ bench get-app branch version-13 erpnext https://github.com/frappe/erpnext
 ```
 #### Schritt 6: Installieren Sie die ERPNext-App auf unserer Website
 ```
-bench --site erp.codewithkarani.com install-app erpnext
+bench --site erp.testSite.com install-app erpnext
 ```
 #### Schritt 7: Starten Sie ERPNext und schließen Sie die Installation ab
 ```
