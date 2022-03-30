@@ -127,4 +127,8 @@ bench --site erp.testSite.com install-app erpnext
 bench start
 ```
 Navigieren Sie zur IP-Adresse Ihrer Installation und der Portnummer, die nach dem Ausführen auf dem Terminal angezeigt wird. Verwenden Sie im Fall einer lokalen Instanz 127.0.0.1:8000
-
+um vom Dev Mode zu Production Mode zu weckseln, fuehren Sie folgende Befehl aus:
+```
+sudo bench setup production $USER
+sudo supervisorctl restart all
+```
