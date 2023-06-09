@@ -106,7 +106,7 @@ sudo pip3 install frappe-bench
 
 Der nächste Schritt besteht darin, das Bench-Verzeichnis mit installiertem Frappe-Framework zu initialisieren. Stellen Sie sicher, dass Sie sich noch im Verzeichnis /opt/bench befinden:
 ```
-bench init erpnext
+bench init --frappe-branch version-13 erpnext
 ```
 Erstellen Sie eine neue Frappe-Site.
 ```
@@ -116,7 +116,7 @@ bench new-site erp.testSite.com
 #### Schritt 5: Holen Sie sich die ERPNext-Anwendung von GitHub.
 Laden Sie die ERPNext aus dem Frappe-Github-Repo herunter. Wir werden Version 13 verwenden. Sie können jede Version verwenden, die Sie möchten.
 ```
-bench get-app branch version-13 erpnext https://github.com/frappe/erpnext
+bench get-app --branch version-13 erpnext
 ```
 #### Schritt 6: Installieren Sie die ERPNext-App auf unserer Website
 ```
@@ -124,6 +124,7 @@ bench --site erp.testSite.com install-app erpnext
 ```
 #### Schritt 7: Starten Sie ERPNext und schließen Sie die Installation ab
 ```
+bench use erp.testSite.com
 bench start
 ```
 Navigieren Sie zur IP-Adresse Ihrer Installation und der Portnummer, die nach dem Ausführen auf dem Terminal angezeigt wird. Verwenden Sie im Fall einer lokalen Instanz 127.0.0.1:8000
